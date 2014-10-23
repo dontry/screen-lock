@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple">#600c6a</color>
+          <color name="pink">#fad5fa</color>
+        <color name="deep_blue">#174db0</color>
+        <color name="black">#000000</color>
+        <color name="transculent_black">#90000000</color>
+</resources>

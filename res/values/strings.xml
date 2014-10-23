@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TestLockScreenActivity!</string>
+    <string name="app_name">DonLock</string>
+    <string name="don">don</string>
+    <string name="txt_enable">Enable</string>
+    <string name="txt_disable">Disable</string>
+    <string name="screenlock_select">Screenlock</string>
+    <string name="sleeping_girl">Sleeping girl</string>
+    <string name="gesture">Gesture</string>
+    <string name="setting">Setting</string>
+    <string name= "save_success">Save success</string>
+    <string name= "save_failed">Save failure</string>
+    <string name="gesture_name">My Gesture</string>
+    <string name= "load_failed">Load failure </string>
+    <string name= "load_success">Load success </string>
+    <string name="load_gesture">Load Gestures</string>
+    <string name="create_gesture">Create gesture</string>
+    <string name="gesture_unlock">Unlock</string>
+    <string name="gesture_contact">Contact</string>
+    <string name="gesture_message">Message</string>
+    <string name="gesture_camera">Camera</string>
+</resources>

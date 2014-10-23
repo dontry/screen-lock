@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+	<TextView
+		android:id="@+id/tv_screenlock_select"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginTop="10dp"
+		android:text="@string/screenlock_select"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textSize="10pt" >
+	</TextView>
+	<LinearLayout
+		android:id="@+id/linearLayout_screenlock_items"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="5dp" >
+		<RadioGroup
+			android:id="@+id/radioGroup_screenlock_items"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" >
+			<RadioButton
+				android:id="@+id/radio_girl"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:checked="true"
+				android:text="@string/sleeping_girl" >
+			</RadioButton>
+			<RadioButton
+				android:id="@+id/radio_gesture"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/gesture" >
+			</RadioButton>
+		</RadioGroup>
+		<RelativeLayout
+			android:id="@+id/relativeLayout1"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent" >
+			<Button
+				android:id="@+id/button_gesture"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentBottom="true"
+				android:layout_alignParentLeft="true"
+				android:text="@string/setting" >
+			</Button>
+		</RelativeLayout>
+	</LinearLayout>
+	<ToggleButton
+		android:id="@+id/btn_enable"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right"
+		android:layout_margin="10dp"
+		android:text="@string/txt_enable" />
+</LinearLayout>

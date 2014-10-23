@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginRight="20dp"
+	android:orientation="vertical"
+	android:weightSum="1" >
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:orientation="vertical">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/tv_name" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/gesture_name" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:textSize="8pt"></TextView>
+</LinearLayout>
+<android.gesture.GestureOverlayView android:layout_gravity="center_horizontal" android:layout_margin="5dp" android:gestureStrokeType="multiple" android:id="@+id/gov_gesture" android:layout_width="fill_parent" android:layout_height="243dp" android:layout_weight="0.85">
+</android.gesture.GestureOverlayView>
+<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:orientation="horizontal" android:weightSum="1" android:layout_gravity="center_horizontal" android:layout_width="wrap_content">
+    <Button android:layout_gravity="center_horizontal" android:layout_weight="0.18" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@android:string/ok" android:width="100dp" android:id="@+id/btn_ok"></Button>
+    <Button android:layout_weight="0.24" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_marginLeft="40dp" android:width="100dp" android:text="@android:string/cancel" android:id="@+id/btn_cancel"></Button>
+</LinearLayout>
+</LinearLayout>
